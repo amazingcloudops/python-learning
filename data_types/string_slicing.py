@@ -20,3 +20,19 @@ print (name[::2])
 
 #Reverse a string using slicing
 print (name[::-1])
+
+#More examples of using string slicing and step
+
+number = "0123456789"
+
+#Print all even numbers
+
+print (number[2::2])
+
+#Print all odd numbers
+
+print (number[1::2])
+
+#Print all odd numbers less than 7
+
+print (number[1:7:2])
